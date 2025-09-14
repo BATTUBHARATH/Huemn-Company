@@ -1,0 +1,45 @@
+.features {
+  padding: 48px 8%;
+  background: #fff;
+}
+
+.container {
+  display:flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  flex:1;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.06);
+  background: linear-gradient(180deg,#ffffff,#fbfdff);
+  min-height: 160px;
+  transition: transform .25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.01);
+}
+
+.icon{
+  width:48px;
+  height:48px;
+  border-radius: 10px;
+  margin-bottom:12px;
+  background: linear-gradient(135deg,#e6f4ff,#dbeafe);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  color: #0f172a;
+}
+.card p {
+  margin:0;
+  color:#475569;
+}
